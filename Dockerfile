@@ -1,4 +1,5 @@
-FROM tomcat:8-jre8 
-MAINTAINER "Vcube"
-COPY ./taxi-booking/target/taxi-booking-1.0.1.war /usr/local/tomcat/webapps
-EXPOSE 8080
+FROM ubuntu:latest
+    LABEL maintainer="sujeeth"
+    RUN echo "hello docker"
+    CMD ["echo","this is cmd1"]
+    ENTRYPOINT [ "echo","this is ep1" ]
