@@ -20,14 +20,14 @@
     <module>taxi-booking</module>
   </modules>
   <settings>
-  <servers>
-    <server>
-      <id>my-repo</id>
-      <username>admin</username>
-      <password>admin@123</password>
-    </server>
-  </servers>
-</settings>
+    <servers>
+      <server>
+        <id>my-repo</id>
+        <username>admin</username>
+        <password>admin@123</password>
+      </server>
+    </servers>
+  </settings>
   <distributionManagement>
     <repository>
       <id>my-repo</id>
