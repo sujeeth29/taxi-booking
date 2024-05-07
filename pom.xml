@@ -153,4 +153,15 @@
     <maven>3.0.3</maven>
   </prerequisites>
 
+  <!-- Add this section within the project element -->
+  <settings>
+    <servers>
+        <server>
+            <id>my-repo</id>
+            <username>admin</username>
+            <password>admin@123</password>
+        </server>
+    </servers>
+  </settings>
+
 </project>
