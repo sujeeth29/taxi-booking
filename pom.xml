@@ -19,13 +19,20 @@
     <module>server</module>
     <module>taxi-booking</module>
   </modules>
-
+  <settings>
+  <servers>
+    <server>
+      <id>my-repo</id>
+      <username>admin</username>
+      <password>admin@123</password>
+    </server>
+  </servers>
+</settings>
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
+    <repository>
+      <id>my-repo</id>
+      <url>http://54.146.16.58:8081/repository/my-repo/</url>
+    </repository>
   </distributionManagement>
 
   <build>
